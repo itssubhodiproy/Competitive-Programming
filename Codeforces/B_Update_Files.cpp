@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define  i long long int
-#define  w (a,b) while (a > b)
+#define  w (a,b) while (a > b)                    <<<<<<<<<<<<----------- O(n^2)---------->>>>>>>>> Getting TLE 
 int main()
 {
     i t;
