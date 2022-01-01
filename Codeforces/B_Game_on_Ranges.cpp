@@ -11,8 +11,8 @@ int32_t main()
         ll n;
         cin >> n;
         ll l, r;
-        ll arr[1000];
-        memset(arr, -1, 1000);
+        ll arr[10000];
+        memset(arr, -1, 10000);
         vector<pair<ll, pair<ll, ll>>> p;
         // vector<pair<pair<ll,ll>,vector<ll>>> v;
         while (n--)
