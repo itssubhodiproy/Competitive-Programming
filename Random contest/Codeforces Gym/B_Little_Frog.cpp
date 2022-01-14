@@ -7,7 +7,7 @@ int main()
 
     ll n;
     cin >> n;
-    // ll arr[n];
+    
     queue<ll> v;
     // vector<ll> v;
     ll i = 1;
