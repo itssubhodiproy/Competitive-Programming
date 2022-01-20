@@ -33,7 +33,7 @@ int main()
                 break;
             }
             k -= valid.front();
-            // cout<<valid.front()<<" ";
+            
             count++;
             valid.pop();
             
