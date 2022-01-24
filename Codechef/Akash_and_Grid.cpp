@@ -12,7 +12,7 @@ int main()
         cin >> nn >> xx >> yy;
         if ( (xx == nn && yy == nn) || (xx == 1 && yy == 1) || (xx == nn && yy == 1 ) || (xx == 1 && yy == nn) )
         {
-            cout << 0 << endl;
+            cout << 0<< endl;
         }
 
         else
