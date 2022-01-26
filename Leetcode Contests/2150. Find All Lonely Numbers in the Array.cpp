@@ -5,7 +5,7 @@ public:
     vector<int> findLonely(vector<int>& nums) {
         // check1
         set<int> s;
-        vector<int> ans;
+        vector<int>ans;
         for(auto it: nums){
             s.insert(it);
         }
@@ -18,7 +18,7 @@ public:
         }
         // ans is storing alll elements which adjacent is not present in the arrray
         
-        // check2 ---->>>> check for repeating element
+        // check2 ---->>>> check for repeating elment
         unordered_map <int,int> m;
         for(auto it: ans){
             m[it]++;
