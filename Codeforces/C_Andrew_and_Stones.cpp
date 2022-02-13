@@ -45,32 +45,29 @@ int32_t main()
             {
                 odd++;
             }
-            if (v[i] == 2)
-            {
-                twos++;
-            }
         }
 
-        if (twos + ones >= odd && (odd != ones || odd == 0))
+        if (ones >= n - 2 || ((n == 3) && (odd == 1)))
         {
-            // now take the no of count
+            cout << "-1"
+                 << "\n";
+            continue;
+        }
+
+        else
+        {
             for (int i = 1; i < n - 1; i++)
             {
                 if (v[i] % 2 == 1)
                 {
-                    v[i] += 1;
+                    steps += (v[i] + 1) / 2;
+                }
+                else
+                {
+                    steps += v[i] / 2;
                 }
             }
-            for (int i = 1; i < n - 1; i++)
-            {
-                steps += (v[i] / 2);
-            }
             cout << steps << "\n";
-        }
-        else
-        {
-            cout << "-1"
-                 << "\n";
         }
     }
     return 0;
