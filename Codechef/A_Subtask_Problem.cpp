@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+
 bool check(int arr[],int n){
     for (int i = 0; i <n ; i++)
     {
