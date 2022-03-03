@@ -25,14 +25,14 @@ int32_t main()
     {
         float x1, x2, y1, y2;
         cin >> x1 >> x2 >> y1 >> y2;
-        if ( (1/x1) * y1 > (1/x2) * y2)
-        {
-            cout << "1"
-                 << "\n";
-        }
-        else if ( (1/x1) * y1 < (1/x2) * y2)
+        if (x1 / y1 > x2 / y2)
         {
             cout << "-1"
+                 << "\n";
+        }
+        else if (x1 / y1 < x2 / y2)
+        {
+            cout << "1"
                  << "\n";
         }
         else
