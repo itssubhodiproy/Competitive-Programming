@@ -25,6 +25,12 @@ int32_t main()
     {
         int n;
         cin >> n;
+        if (n == 2 || n == 1)
+        {
+            cout << "-1"
+                 << "\n";
+            continue;
+        }
         if (n % 2 == 1)
         {
             while (n)
@@ -36,30 +42,15 @@ int32_t main()
         }
         else
         {
-            deque<int> v;
+            vector<int> v;
             // previous
-            int i = n / 2;
-            while (true)
-            {
-                v.push_front(i);
-
-                if (i == n - 1)
-                {
-                    break;
-                }
-                i++;
-            }
-            v.push_back(n);
-            i = n / 2 - 1;
-            while (true)
+            v.push_back(2);
+            v.push_back(3);
+            v.push_back(1);
+            v.push_back(4);
+            for (int i = 5; i <= n; i++)
             {
                 v.push_back(i);
-
-                if (i == 1)
-                {
-                    break;
-                }
-                i--;
             }
 
             for (auto it : v)
