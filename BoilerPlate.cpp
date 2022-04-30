@@ -7,7 +7,7 @@ CODEFORCES: subh_23
 CODECHEF: subh_23
 GRADUATION YEAR: 2024
 */
-// Header Files and Macros//----------------------------------------------------------------->>
+// Header Files and Macros//------------------------------------------------------------------>>
 #pragma GCC optimize("O3,unroll-loops")
 #include <bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
@@ -21,6 +21,14 @@ using namespace __gnu_pbds;
 #define vi vector<int>
 #define mod (int)1e9
 #define printCase(x) cout << "Case #" << x << ": "
+#define nline '\n'
+#define yes cout << "YES"<< nline;
+#define no cout << "NO"<< nline;
+// GNU link : https://goo.gl/WVDL6g
+typedef tree<int, null_type, less<int>, rb_tree_tag,
+             tree_order_statistics_node_update>
+    ordered_set;
+
 // End Here//--------------------------------------------------------------------------------->>
 void readVector(vi &v, int n)
 {
@@ -38,22 +46,16 @@ void Print(int n)
 
 // put function
 
-// Code Here -------------------------------------------------------------------------------->>
+// Code Here --------------------------------------------------------------------------------->>
 void solve(int z)
 {
     // Input//
     // int n; cin >> n;
 
-
-
     // printCase(z); //(For Google Competitions)
     // Code it Here
-
-
-
-    
 }
-//------------------------------------------------------------------------------------------>>
+//-------------------------------------------------------------------------------------------->>
 signed main()
 {
     ios_base::sync_with_stdio(false);
@@ -71,10 +73,10 @@ signed main()
 INSTRUCTIONS TO KEEP IN MIND
 -> Read the problem statement very clearly.
 -> Dig deep into the problem statement and try to find the crispy part
-   of the question. (Basically Logic)
+   of the question (Basically Logic).
 -> Find out how the crispy part is helping you to design the algorithm
    to solve the current question
--> Try to find the edgecases.
+-> Try to find the edgecases (Smaller & random cases).
 -> Formulate the code in paper.
 -> Code it.. Woohhhaaaahhh!! (Accepted)
 */
