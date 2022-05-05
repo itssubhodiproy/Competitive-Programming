@@ -1,4 +1,4 @@
-/*Boil
+/*Boil use this snippet in Snippet Generator and merge with VS code
 NAME: SUBHODIP ROY
 BRANCH: COMPUTER SCIENCE AND ENGINEERING
 COLLEGE: NETAJI SUBHASH ENGINEERING COLLEGE
