@@ -80,10 +80,10 @@ signed main()
 INSTRUCTIONS TO KEEP IN MIND
 -> Read the problem statement very clearly.
 -> Dig deep into the problem statement and try to find the crispy part
-   of the question (Basically Logic).
+   of the question (basically Logic).
 -> Find out how the crispy part is helping you to design the algorithm
    to solve the current question
--> Try to find the edgecases (Smaller & random cases).
+-> Try to find the edgecases (smaller & random cases).
 -> Formulate the code in paper.
 -> Code it.. Woohhhaaaahhh!! (Accepted)
 */
