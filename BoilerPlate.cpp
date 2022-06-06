@@ -39,9 +39,16 @@ void readVector(vi &v, int n)
         v.push_back(num);
     }
 }
-void Print(int n)
+void printVector(vi &v)
 {
-    cout << n << '\n';
+    for (auto it : v)
+        cout << it << " ";
+    cout << nline;
+}
+//decreasing order
+bool cmp(int a, int b)
+{
+    return b > a;
 }
 
 // put function
